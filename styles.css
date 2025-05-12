@@ -1,1 +1,76 @@
 /*  your css code here. If applicable */
+body {
+	background-color: #f5f5f5;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #011e29;
+	padding: 18px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.header > h3 {
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+	margin: 0;
+}
+#container
+{
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#container >div{
+	width:200px;
+	height:200px;
+	background-color:red;
+	font-size:12px;
+	color:black;
+	border-radius:10px;
+}
+
+.latest-news-section
+{
+	background-color:white !important;
+	padding:10px;
+}
+.latest-news-section h2 {
+	color: #011e29;
+	text-align:center;
+}
+.latest-news-section ul {
+	padding-left: 20px;
+}
+
+.latest-article-section
+{
+	background-color:white !important;
+	padding:10px;
+}
+.latest-article-section h2 {
+	color: #011e29;
+	text-align:center;
+}
+.pictorial-news-section
+{
+	background-color:white !important;
+	padding:10px;
+	flex-direction:coloum;
+	height:350px !important;
+	width:200px;
+}
+.pictorial-news-section h2 {
+	color: #011e29;
+	text-align:center;
+}
+
+.pictorial-news-section >img{
+	background-size:cover;
+	height:100px;
+	width:100%;
+}
