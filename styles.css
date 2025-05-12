@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 body {
 	background-color: #f5f5f5;
 	margin: 0;
@@ -18,59 +17,54 @@ body {
 	font-weight: 900;
 	margin: 0;
 }
-#container
-{
-	width:100vw;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-around;
-}
-#container >div{
-	width:200px;
-	height:200px;
-	background-color:red;
-	font-size:12px;
-	color:black;
-	border-radius:10px;
+
+#container {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.latest-news-section
-{
-	background-color:white !important;
-	padding:10px;
+#container > div {
+	width: 200px;
+	background-color: white;
+	font-size: 12px;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px 0;
 }
-.latest-news-section h2 {
+
+.latest-news-section h2,
+.latest-article-section h2,
+.pictorial-news-section h2 {
 	color: #011e29;
-	text-align:center;
+	text-align: center;
+	font-size: 16px;
 }
+
 .latest-news-section ul {
 	padding-left: 20px;
 }
 
-.latest-article-section
-{
-	background-color:white !important;
-	padding:10px;
-}
-.latest-article-section h2 {
-	color: #011e29;
-	text-align:center;
-}
-.pictorial-news-section
-{
-	background-color:white !important;
-	padding:10px;
-	flex-direction:coloum;
-	height:350px !important;
-	width:200px;
-}
-.pictorial-news-section h2 {
-	color: #011e29;
-	text-align:center;
+.latest-article-section p {
+	font-size: 12px;
+	text-align: justify;
 }
 
-.pictorial-news-section >img{
-	background-size:cover;
-	height:100px;
-	width:100%;
+.pictorial-news-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	height: auto;
+}
+
+.pictorial-news-section img {
+	background-size: cover;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 5px;
+	border-radius: 5px;
 }
